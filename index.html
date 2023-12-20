@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="cards">
+      <select name="cards" id="drop" onchange="getValue();">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <div id="mapped">
+      <div class="card" id="styleCard">
+        <div class="circle"><h2 class="id" id="styleHead">1</h2></div>
+        ;
+        <div class="content">
+          <p>
+            lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do
+            eiusmod tempor incidudunt ut labore et dolore magna aliqua
+          </p>
+          <a>Read more</a>
+        </div>
+      </div>
+      <div id="new"></div>
+    </div>
+    <div class="btn">
+      <button onclick="moveNext();">Next</button>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
